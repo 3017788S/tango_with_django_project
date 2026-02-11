@@ -135,3 +135,6 @@ MEDIA_ROOT = MEDIA_DIR
 
 MEDIA_URL = '/media/'
 
+#Login URL
+
+LOGIN_URL = 'rango:login'
