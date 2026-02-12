@@ -138,3 +138,7 @@ MEDIA_URL = '/media/'
 #Login URL
 
 LOGIN_URL = 'rango:login'
+
+#Cookie handling
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
